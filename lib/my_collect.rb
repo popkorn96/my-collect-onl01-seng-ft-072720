@@ -5,7 +5,7 @@ def my_collect(languages)
   new_collection << yield(languages[i])
   i += i + 1
 end
-new_collection.upcase
+new_collection
 end
 
 def my_collect(students)
