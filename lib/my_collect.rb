@@ -1,10 +1,11 @@
 def my_collect(languages)
   i = 0
-  lang = []
+  new_collection = []
   while i < languages.length 
-  lang << yield(languages[i])
+  new_collection << yield(languages[i])
   i += i + 1
 end
+new_collection
 end
 
 def my_collect(students)
