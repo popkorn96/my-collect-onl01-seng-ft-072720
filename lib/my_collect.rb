@@ -1,11 +1,11 @@
-def my_collect(languages)
+def my_collect(array
+  new_array = []
   i = 0
-  new_collection = []
-  while i < languages.length 
-  new_collection << yield(languages[i])
+  while i < array.length 
+  new_array << yield(languages[i])
   i += 1
 end
-new_collection
+return new_array
 end
 
 def my_collect(students)
