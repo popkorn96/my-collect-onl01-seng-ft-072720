@@ -5,7 +5,6 @@ def my_collect(languages)
   lang << yield(languages[i])
   i += i + 1
 end
-lang
 end
 
 def my_collect(students)
@@ -15,5 +14,4 @@ def my_collect(students)
   stud << yield(students[i])
   i += i + 1
 end
-lang
 end
