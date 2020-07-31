@@ -7,12 +7,3 @@ def my_collect(array
 end
 return new_array
 end
-
-def my_collect(students)
-  i = 0
-  stud = []
-  while i < students.length 
-  stud << yield(students[i])
-  i += i + 1
-end
-end
